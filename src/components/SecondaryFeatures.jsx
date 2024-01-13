@@ -100,10 +100,12 @@ const features = [
 
 function Feature({ feature, isActive, className, ...props }) {
   return (
+    
     <div
       className={clsx(className, !isActive && 'opacity-75 hover:opacity-100')}
       {...props}
     >
+      
       <div
         className={clsx(
           'w-9 rounded-lg',
@@ -215,6 +217,7 @@ export function SecondaryFeatures() {
       aria-label="Features for simplifying everyday business tasks"
       className="pb-14 pt-20 sm:pb-20 sm:pt-32 lg:pb-32"
     >
+      
       <Container>
         <div className="mx-auto max-w-2xl md:text-center">
           <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
