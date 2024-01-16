@@ -9,7 +9,6 @@ import { SecondaryFeatures } from '@/components/SecondaryFeatures'
 import { Testimonials } from '@/components/Testimonials'
 import { LogoCloud } from "@/components/LogoCloud"
 import { BlogFeatured } from "@/components/BlogFeatured"
-import { ContactHero } from "@/components/ContactHero"
 import { SupportSection } from "@/components/SupportSection"
 import { AboutCallOut } from "@/components/AboutCallOut"
 import { AboutHeading } from "@/components/AboutHeading"
@@ -30,8 +29,7 @@ export default function Home() {
         <AboutCallOut />
         <Testimonials />
         <Pricing />
-        <DesignCTA />
-        
+        <DesignCTA />    
         <SupportSection />
         <Faqs />
       </main>
