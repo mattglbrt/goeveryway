@@ -9,7 +9,11 @@ import { SecondaryFeatures } from '@/components/SecondaryFeatures'
 import { Testimonials } from '@/components/Testimonials'
 import { LogoCloud } from "@/components/LogoCloud"
 import { BlogFeatured } from "@/components/BlogFeatured"
-
+import { ContactHero } from "@/components/ContactHero"
+import { SupportSection } from "@/components/SupportSection"
+import { AboutCallOut } from "@/components/AboutCallOut"
+import { AboutHeading } from "@/components/AboutHeading"
+import { DesignCTA } from "@/components/DesignCTA"
 
 export default function Home() {
   return (
@@ -22,8 +26,13 @@ export default function Home() {
         <SecondaryFeatures />
         <CallToAction />
         <BlogFeatured />
+        <AboutHeading />
+        <AboutCallOut />
         <Testimonials />
         <Pricing />
+        <DesignCTA />
+        
+        <SupportSection />
         <Faqs />
       </main>
       <Footer />

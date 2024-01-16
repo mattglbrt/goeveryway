@@ -21,7 +21,7 @@ export default function Login() {
         Sign in to your account
       </h2>
       <p className="mt-2 text-sm text-gray-700">
-        Don’t have an account?{' '}
+        Dont have an account?{' '}
         <Link
           href="/register"
           className="font-medium text-blue-600 hover:underline"
