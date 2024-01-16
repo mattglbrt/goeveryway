@@ -13,6 +13,7 @@ import { SupportSection } from "@/components/SupportSection"
 import { AboutCallOut } from "@/components/AboutCallOut"
 import { AboutHeading } from "@/components/AboutHeading"
 import { DesignCTA } from "@/components/DesignCTA"
+import { ContactHero } from "@/components/ContactHero"
 
 export default function Home() {
   return (
@@ -31,6 +32,7 @@ export default function Home() {
         <Pricing />
         <DesignCTA />    
         <SupportSection />
+        <ContactHero />
         <Faqs />
       </main>
       <Footer />
