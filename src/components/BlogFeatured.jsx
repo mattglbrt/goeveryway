@@ -1,59 +1,59 @@
 const posts = [
     {
       id: 1,
-      title: 'Boost your conversion rate',
+      title: 'What is RevOps and why you need it',
       href: '#',
       description:
-        'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
+        'Revenue Operations, referred to as RevOps, is a strategic framework that unifies sales, marketing, and customer success to drive sustainable revenue growth and improve customer experiences.',
       imageUrl:
         'https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80',
-      date: 'Mar 16, 2020',
-      datetime: '2020-03-16',
+      date: 'Jan 14, 2024',
+      datetime: '2024-01-14',
       category: { title: 'Marketing', href: '#' },
       author: {
-        name: 'Michael Foster',
-        role: 'Co-Founder / CTO',
+        name: 'Matt Gilbert',
+        role: 'Founder',
         href: '#',
         imageUrl:
-          'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+          'https://media.licdn.com/dms/image/C4E03AQGV3rEgrCWBvQ/profile-displayphoto-shrink_200_200/0/1643738800552?e=1710979200&v=beta&t=cCn55U4kd8Sl7XToOzuh_pgMmZxxk_Z-5y1pOldyCcE',
       },
     },
     {
         id: 1,
-        title: 'Boost your conversion rate',
+        title: 'How to build a successful website',
         href: '#',
         description:
-          'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
+          'A website, while crucial for establishing an online presence and providing information about your products or services, is not inherently a sales tool. Without an effective sales strategy, it cannot convert visitors into customers.',
         imageUrl:
           'https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80',
-        date: 'Mar 16, 2020',
-        datetime: '2020-03-16',
-        category: { title: 'Marketing', href: '#' },
-        author: {
-          name: 'Michael Foster',
-          role: 'Co-Founder / CTO',
-          href: '#',
+          date: 'Jan 12, 2024',
+          datetime: '2024-01-12',
+          category: { title: 'Marketing', href: '#' },
+          author: {
+            name: 'Matt Gilbert',
+            role: 'Founder',
+            href: '#',
           imageUrl:
-            'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+            'https://media.licdn.com/dms/image/C4E03AQGV3rEgrCWBvQ/profile-displayphoto-shrink_200_200/0/1643738800552?e=1710979200&v=beta&t=cCn55U4kd8Sl7XToOzuh_pgMmZxxk_Z-5y1pOldyCcE',
         },
       },
       {
         id: 1,
-        title: 'Boost your conversion rate',
+        title: 'Domain names vs. websites',
         href: '#',
         description:
           'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
         imageUrl:
           'https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80',
-        date: 'Mar 16, 2020',
-        datetime: '2020-03-16',
-        category: { title: 'Marketing', href: '#' },
-        author: {
-          name: 'Michael Foster',
-          role: 'Co-Founder / CTO',
-          href: '#',
+          date: 'Jan 11, 2024',
+          datetime: '2024-01-11',
+          category: { title: 'Technology', href: '#' },
+          author: {
+            name: 'Matt Gilbert',
+            role: 'Founder',
+            href: '#',
           imageUrl:
-            'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+            'https://media.licdn.com/dms/image/C4E03AQGV3rEgrCWBvQ/profile-displayphoto-shrink_200_200/0/1643738800552?e=1710979200&v=beta&t=cCn55U4kd8Sl7XToOzuh_pgMmZxxk_Z-5y1pOldyCcE',
         },
       },
     // More posts...
@@ -66,9 +66,9 @@ const posts = [
       <div className="bg-white py-24 sm:py-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl text-center">
-            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">From the blog</h2>
+            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Resources</h2>
             <p className="mt-2 text-lg leading-8 text-gray-600">
-              Learn how to grow your business with our expert advice.
+              Learn how to grow your business with our actionable guides and advice.
             </p>
           </div>
           <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">

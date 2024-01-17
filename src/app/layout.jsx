@@ -5,11 +5,11 @@ import '@/styles/tailwind.css'
 
 export const metadata = {
   title: {
-    template: '%s - TaxPal',
-    default: 'TaxPal - Accounting made simple for small businesses',
+    template: '%s - Go Everyway',
+    default: 'Everyway - RevOps for small business',
   },
   description:
-    'Most bookkeeping software is accurate, but hard to use. We make the opposite trade-off, and hope you don’t get audited.',
+    'We optimize your sales and marketing operations to boost profits, streamline sales, and elevate your brand. We provide full service go to market strategy and implementation.',
 }
 
 const inter = Inter({

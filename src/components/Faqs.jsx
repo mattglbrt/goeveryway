@@ -7,53 +7,53 @@ import backgroundImage from '@/images/background-faqs.jpg'
 const faqs = [
   [
     {
-      question: 'Does TaxPal handle VAT?',
+      question: 'What is RevOps? That sounds made up.',
       answer:
-        'Well no, but if you move your company offshore you can probably ignore it.',
+        'RevOps, short for Revenue Operations, is a strategic approach that aligns sales, marketing, and customer success departments to optimize revenue growth and enhance customer experiences. The term "RevOps" gained prominence in the mid-2010s and we feel it describes what we do much better than any other buzzword.',
     },
     {
-      question: 'Can I pay for my subscription via purchase order?',
-      answer: 'Absolutely, we are happy to take your money in all forms.',
+      question: 'How much does it cost?',
+      answer: 'We have flexible pricing based on client needs, but traditionally we offer 2 main price tiers: $3,500 and $8,000 per month. We are currently working on a $250 a month option for total beginers and bootstrappers.',
     },
     {
-      question: 'How do I apply for a job at TaxPal?',
+      question: 'What if I just need a website?',
       answer:
-        'We only hire our customers, so subscribe for a minimum of 6 months and then let’s talk.',
+        'Almost no business needs just a website. A website is not a sales tool, and by itself will end up just wasting your money. Our goal is for your business to be successful. Not just have a new website.',
     },
   ],
   [
     {
-      question: 'What was that testimonial about tax fraud all about?',
+      question: 'Do you offer graphic design services?',
       answer:
-        'TaxPal is just a software application, ultimately your books are your responsibility.',
+        'We do, but only in support of lead generation, social media marketing, content production, paid advertising, and sales enablement. Essentially we only do what works.',
     },
     {
       question:
-        'TaxPal sounds horrible but why do I still feel compelled to purchase?',
+        'Do you know how to code?',
       answer:
-        'This is the power of excellent visual design. You just can’t resist it, no matter how poorly it actually functions.',
+        'We are focused on building the highest performing marketing websites possible, and our engineers are skilled all commonly used frontend and backend languages. That being said, we usually will not build your full product or app idea.',
     },
     {
       question:
-        'I found other companies called TaxPal, are you sure you can use this name?',
+        'What about SEO?',
       answer:
-        'Honestly not sure at all. We haven’t actually incorporated or anything, we just thought it sounded cool and made this website.',
+        'We value performance over everything, and keep core web vitals at the forefront of everything we build. We are technical SEO experts and can handle everything from seo content production to full website performance upgrades. Need local seo? We have you covered there too.',
     },
   ],
   [
     {
-      question: 'How do you generate reports?',
+      question: 'Are you familiar with Wordpress / Webflow / Figma / Framer / Shopify / Magento / Commerce Tools / NextJS ...',
       answer:
-        'You just tell us what data you need a report for, and we get our kids to create beautiful charts for you using only the finest crayons.',
+        'We might be a young company but we are a team of professionals who each have over 15 years of experience. If you are using it in 2024, we have worked with it.',
     },
     {
-      question: 'Can we expect more inventory features?',
-      answer: 'In life it’s really better to never expect anything at all.',
+      question: 'Are you familiar with Salesforce / Hubspot / Marketo / Klaviyo / Apollo / Six Sense ',
+      answer: 'Every member of the Everyway team is located in Virginia.',
     },
     {
-      question: 'I lost my password, how do I get into my account?',
+      question: 'Can we do a single campaign or project first before an all encompassing strategy?',
       answer:
-        'Send us an email and we will send you a copy of our latest password spreadsheet so you can find your information.',
+        'Absolutely, reach out to matt@goeveryway.com with your needs and we can get started on a single project basis.',
     },
   ],
 ]
@@ -82,8 +82,7 @@ export function Faqs() {
             Frequently asked questions
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            If you can’t find what you’re looking for, email our support team
-            and if you’re lucky someone will get back to you.
+           Answers to commonly asked questions. If you have any additional questions, reach out to <a href="mailto:matt@goeveryway.com">matt@goeveryway.com</a>.
           </p>
         </div>
         <ul

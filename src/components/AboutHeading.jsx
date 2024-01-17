@@ -1,14 +1,13 @@
 const links = [
-    { name: 'Open roles', href: '#' },
-    { name: 'Internship program', href: '#' },
-    { name: 'Our values', href: '#' },
-    { name: 'Meet our leadership', href: '#' },
+    
+    { name: 'Our values', href: '#mission' },
+    { name: 'About our Founder', href: '#' },
   ]
   const stats = [
-    { name: 'Offices worldwide', value: '12' },
-    { name: 'Full-time colleagues', value: '300+' },
-    { name: 'Hours per week', value: '40' },
-    { name: 'Paid time off', value: 'Unlimited' },
+    { name: 'Years in Business', value: '4' },
+    { name: 'Businesses Helped', value: '28' },
+    { name: 'Websites Built', value: '39' },
+    { name: 'Client Revenue Generated', value: '$3.2M' },
   ]
   
   export function AboutHeading() {
@@ -46,10 +45,9 @@ const links = [
         </div>
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0">
-            <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">Work with us</h2>
+            <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">About Everyway</h2>
             <p className="mt-6 text-lg leading-8 text-gray-300">
-              Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
-              fugiat veniam occaecat fugiat aliqua.
+              We are dedicated to the overall success of our clients. Thats why we take a holistic approach to marketing and sales.
             </p>
           </div>
           <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
