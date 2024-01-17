@@ -25,13 +25,13 @@ const faqs = [
     {
       question: 'Do you offer graphic design services?',
       answer:
-        'We do, but only in support of lead generation, social media marketing, content production, paid advertising, and sales enablement. Essentially we only do what works.',
+        'We do, but only in support of lead generation, social media marketing, content production, paid advertising, and sales enablement. Essentially, we only do what works.',
     },
     {
       question:
         'Do you know how to code?',
       answer:
-        'We are focused on building the highest performing marketing websites possible, and our engineers are skilled all commonly used frontend and backend languages. That being said, we usually will not build your full product or app idea.',
+        'We are focused on building the highest performing marketing websites possible, and our engineers are skilled all commonly used frontend and backend languages. That being said, we general do not build full products or app ideas, but we are open to the possibility.',
     },
     {
       question:

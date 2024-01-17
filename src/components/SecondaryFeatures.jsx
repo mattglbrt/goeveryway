@@ -41,7 +41,7 @@ const features = [
   {
     name: 'Go to market',
     summary:
-      'Websites, email marketing, content marketing, paid advertising, and SEO.',
+      'Websites, email marketing, content marketing, paid advertising, & SEO.',
     description:
       'Instead of offering piecemeal marketing services, we utilize every channel available to build cohesive marketing campaigns, resulting in higher ROI on your marketing budget.',
     image: screenshotInventory,
@@ -76,7 +76,7 @@ const features = [
   {
     name: 'Sales & MarTech',
     summary:
-      'We handle all the technology to bring it all together.',
+      'We handle the technology that brings it all together.',
     description:
       'We have the expertise to build your MarTech stack from the ground up, or integrate with your current CRM. If you have no clue about what any of that means, we have your covered too.',
     image: screenshotContacts,
@@ -224,7 +224,7 @@ export function SecondaryFeatures() {
             No really, what do you do?
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-          Although we custom tailor our service offerings to each client based on what will acheive their goals, our services typically fall into these categories.
+          Although we custom tailor our service offerings to each client based on their goals, our services typically fall into these categories.
           </p>
         </div>
         <FeaturesMobile />
