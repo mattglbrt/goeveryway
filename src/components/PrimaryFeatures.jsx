@@ -34,7 +34,7 @@ const features = [
   {
     title: 'Go Everyway',
     description:
-      'We provide a strategic roadmap and expert guidance to ensure a successful market entry, helping you reach your target audience, outperform competitors, and achieve rapid growth.',
+      'We provide a strategic roadmap and expert guidance to create a successful market entry, helping you reach your target audience, outperform competitors, and achieve rapid growth.',
     image: screenshotReporting,
   },
 ]

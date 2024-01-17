@@ -17,7 +17,35 @@ const features = [
     description:
       'We will research and find your ideal customers, determine the best ways to get infront of them, and then craft your messaging, core story, and branding to appeal to them.',
     image: screenshotProfitLoss,
-    icon: function ReportingIcon() {
+    icon: function InventoryIcon() {
+      return (
+        <>
+          <path
+            opacity=".5"
+            d="M8 17a1 1 0 0 1 1-1h18a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-2Z"
+            fill="#fff"
+          />
+          <path
+            opacity=".3"
+            d="M8 24a1 1 0 0 1 1-1h18a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-2Z"
+            fill="#fff"
+          />
+          <path
+            d="M8 10a1 1 0 0 1 1-1h18a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-2Z"
+            fill="#fff"
+          />
+        </>
+      ) 
+    },
+  },
+  {
+    name: 'Go to market',
+    summary:
+      'Websites, email marketing, content marketing, paid advertising, and SEO.',
+    description:
+      'Instead of offering piecemeal marketing services, we utilize every channel available to build cohesive marketing campaigns, resulting in higher ROI on your marketing budget.',
+    image: screenshotInventory,
+    icon:  function ReportingIcon() {
       let id = useId()
       return (
         <>
@@ -46,39 +74,11 @@ const features = [
     },
   },
   {
-    name: 'Go to market',
-    summary:
-      'Websites, email marketing, content marketing, paid advertising, and SEO.',
-    description:
-      'Instead of offering piecemeal marketing services, we utilize every channel available to build cohesive marketing campaigns, resulting in higher ROI on your marketing budget.',
-    image: screenshotInventory,
-    icon: function InventoryIcon() {
-      return (
-        <>
-          <path
-            opacity=".5"
-            d="M8 17a1 1 0 0 1 1-1h18a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-2Z"
-            fill="#fff"
-          />
-          <path
-            opacity=".3"
-            d="M8 24a1 1 0 0 1 1-1h18a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-2Z"
-            fill="#fff"
-          />
-          <path
-            d="M8 10a1 1 0 0 1 1-1h18a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-2Z"
-            fill="#fff"
-          />
-        </>
-      )
-    },
-  },
-  {
     name: 'Sales & MarTech',
     summary:
       'We handle all the technology to bring it all together.',
     description:
-      'We have the expertise to build your MarTech stack from the ground up, or integrate with your current CRM. If you have no clue about what any of that means, we have you covered too.',
+      'We have the expertise to build your MarTech stack from the ground up, or integrate with your current CRM. If you have no clue about what any of that means, we have your covered too.',
     image: screenshotContacts,
     icon: function ContactsIcon() {
       return (

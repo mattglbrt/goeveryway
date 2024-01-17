@@ -48,7 +48,7 @@ const faqs = [
     },
     {
       question: 'Are you familiar with Salesforce / Hubspot / Marketo / Klaviyo / Apollo / Six Sense ',
-      answer: 'Every member of the Everyway team is located in Virginia.',
+      answer: 'See above.',
     },
     {
       question: 'Can we do a single campaign or project first before an all encompassing strategy?',
