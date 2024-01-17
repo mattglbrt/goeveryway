@@ -14,27 +14,27 @@ import screenshotVatReturns from '@/images/screenshots/vat-returns.png'
 
 const features = [
   {
-    title: 'Payroll',
+    title: 'Increase Leads',
     description:
-      "Keep track of everyone's salaries and whether or not they've been paid. Direct deposit not supported.",
+      "We unite sales, marketing, and development to build successful sales pipelines that drive net new leads as well as retain current customers.",
     image: screenshotPayroll,
   },
   {
-    title: 'Claim expenses',
+    title: 'Increase Profit',
     description:
-      "All of your receipts organized into one place, as long as you don't mind typing in the data by hand.",
+      "We streamline business processes, systematize procedures, and identify bottlenecks, resulting in improved operational efficiency and reduced costs.",
     image: screenshotExpenses,
   },
   {
-    title: 'VAT handling',
+    title: 'Develop Consistency',
     description:
-      "We only sell our software to companies who don't deal with VAT at all, so technically we do all the VAT stuff they need.",
+      "We establish standard operatiing procedures, key metrics, and reporting methods tailored to your organization to build efficient, scalable, and successful teams.",
     image: screenshotVatReturns,
   },
   {
-    title: 'Reporting',
+    title: 'Go Everyway',
     description:
-      'Easily export your data into an Excel spreadsheet where you can do whatever the hell you want with it.',
+      'We provide a strategic roadmap and expert guidance to ensure a successful market entry, helping you reach your target audience, outperform competitors, and achieve rapid growth.',
     image: screenshotReporting,
   },
 ]
@@ -60,7 +60,7 @@ export function PrimaryFeatures() {
   return (
     <section
       id="features"
-      aria-label="Features for running your books"
+      aria-label="How RevOps can help you"
       className="relative overflow-hidden bg-blue-600 pb-28 pt-20 sm:py-32"
     >
       <Image
@@ -74,11 +74,10 @@ export function PrimaryFeatures() {
       <Container className="relative">
         <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
-            Everything you need to run your books.
+            How RevOps and Everyway can help transform your organization.
           </h2>
           <p className="mt-6 text-lg tracking-tight text-blue-100">
-            Well everything you need if you aren’t that picky about minor
-            details like tax compliance.
+            Work on your business, not in it.
           </p>
         </div>
         <Tab.Group

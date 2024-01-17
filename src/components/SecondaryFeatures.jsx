@@ -12,10 +12,10 @@ import screenshotProfitLoss from '@/images/screenshots/profit-loss.png'
 
 const features = [
   {
-    name: 'Reporting',
-    summary: 'Stay on top of things with always up-to-date reporting features.',
+    name: 'Positioning',
+    summary: 'Establish product market fit and your ideal customer profile.',
     description:
-      'We talked about reporting in the section above but we needed three items here, so mentioning it one more time for posterity.',
+      'We will research and find your ideal customers, determine the best ways to get infront of them, and then craft your messaging, core story, and branding to appeal to them.',
     image: screenshotProfitLoss,
     icon: function ReportingIcon() {
       let id = useId()
@@ -46,11 +46,11 @@ const features = [
     },
   },
   {
-    name: 'Inventory',
+    name: 'Go to market',
     summary:
-      'Never lose track of what’s in stock with accurate inventory tracking.',
+      'Websites, email marketing, content marketing, paid advertising, and SEO.',
     description:
-      'We don’t offer this as part of our software but that statement is inarguably true. Accurate inventory tracking would help you for sure.',
+      'Instead of offering piecemeal marketing services, we utilize every channel available to build cohesive marketing campaigns, resulting in higher ROI on your marketing budget.',
     image: screenshotInventory,
     icon: function InventoryIcon() {
       return (
@@ -74,11 +74,11 @@ const features = [
     },
   },
   {
-    name: 'Contacts',
+    name: 'Sales & MarTech',
     summary:
-      'Organize all of your contacts, service providers, and invoices in one place.',
+      'We handle all the technology to bring it all together.',
     description:
-      'This also isn’t actually a feature, it’s just some friendly advice. We definitely recommend that you do this, you’ll feel really organized and professional.',
+      'We have the expertise to build your MarTech stack from the ground up, or integrate with your current CRM. If you have no clue about what any of that means, we have you covered too.',
     image: screenshotContacts,
     icon: function ContactsIcon() {
       return (
@@ -221,11 +221,10 @@ export function SecondaryFeatures() {
       <Container>
         <div className="mx-auto max-w-2xl md:text-center">
           <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
-            Simplify everyday business tasks.
+            No really, what do you do?
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            Because you’d probably be a little confused if we suggested you
-            complicate your everyday business tasks instead.
+          Although we custom tailor our service offerings to each client based on what will acheive their goals, our services typically fall into these categories.
           </p>
         </div>
         <FeaturesMobile />
